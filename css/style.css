@@ -130,10 +130,20 @@ ul li {
 
 .album-menu li {
   display: inline-block;
+  position: relative;
   text-transform: uppercase;
   font-weight: 600;
   font-size: .6rem;
   padding: 10px 20px 0 20px;
+}
+
+.album-menu li::after {
+  content: "";
+  position: absolute;
+  left: 30%;
+  bottom: 0;
+  width: 40%;
+  height: 1px;
   border-bottom: 1px solid white;
 }
 
