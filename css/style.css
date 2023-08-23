@@ -41,6 +41,19 @@ ul li {
   flex-wrap: wrap;
 }
 
+.btn {
+  padding:6px 20px ;
+  border:1px solid white;
+  border-radius: 15px;
+  position: absolute;
+  right: 20px;
+  top: 30%;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
 /* CONTAINER */
 
 .main-container {
@@ -75,6 +88,8 @@ ul li {
   height: 90px;
   position: fixed;
   right: 0;
+  color:white;
+  background-color: rgba(0, 0, 0, 0.472);
 }
 
 #playlist {
