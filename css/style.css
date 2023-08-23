@@ -54,6 +54,7 @@
   right: 0;
 }
 
+/* ALBUM CONTAINER  */
 .album-container {
   overflow-y: auto;
   width: 100%;
@@ -64,6 +65,7 @@
 .col {
   width: calc(100% / 6);
   padding: 3px;
+  text-align: center;
 }
 
 .col .card img {
