@@ -41,6 +41,12 @@ ul li {
   flex-wrap: wrap;
 }
 
+.column {
+  flex-direction: column;
+}
+
+
+
 .btn {
   padding:6px 20px ;
   border:1px solid white;
@@ -54,6 +60,10 @@ ul li {
   cursor: pointer;
 }
 
+.divider {
+  margin: 5px 0 5px 0;
+  border: 1px solid white;
+}
 /* CONTAINER */
 
 .main-container {
@@ -79,6 +89,8 @@ ul li {
 
 .side-bar .side-footer {
   height:90px;
+  justify-content: end;
+  padding: 15px;
 }
 
 
@@ -118,6 +130,11 @@ ul li {
 
 .album-menu li {
   display: inline-block;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: .6rem;
+  padding: 10px 20px 0 20px;
+  border-bottom: 1px solid white;
 }
 
 .col {
@@ -154,6 +171,9 @@ ul li {
   .side-bar {
     width: 40px;
   }
+.divider {
+  display: none;
+}
 
   .fixed-bar {
     width: calc(100% - 40px);
