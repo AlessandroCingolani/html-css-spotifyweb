@@ -3,3 +3,36 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+/* DEBUG */
+.debug-box{
+  background-color: rgba(255, 0, 0, .2);
+  border: 1px solid black;
+}
+.debug > div{
+  border: 1px solid black;
+}
+
+/* /DEBUG */
+
+
+/* UTILITY */
+.d-flex{
+  display: flex;
+}
+
+
+/* CONTAINER */
+
+.main-container {
+  height: calc(100vh - 90px);
+}
+
+.media-control-bar {
+  height: 90px;
+}
+
+.side-bar {
+  width: 225px;
+  height: 100%;
+}
