@@ -119,8 +119,12 @@ ul li {
   width: 20px;
 }
 
+.playlist-section {
+  height: calc(100% - 170px);
+}
+
 #playlist {
-  height: 45%;
+  height: 80%;
   overflow-y: auto;
   background-color: aqua;
 }
