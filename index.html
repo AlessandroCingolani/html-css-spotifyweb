@@ -16,14 +16,28 @@
     <!-- SIDE BAR -->
     <aside class="side-bar debug-box">
       <div class="side-top debug-box">
-        <img src="img/logo.svg" alt="">
+        <div id="desk-logo">
+          <img src="img/logo.svg" alt="">
+        </div>
+        <div id="mobile-logo">
+          <img src="img/logo-small.svg" alt="">
+        </div>  
         <ul>
-          <li class="debug-box">home</li>
-          <li class="debug-box">cerca</li>
-          <li class="debug-box">la tua libreria</li>
+          <li class="debug-box">
+            <img src="img/home.svg" alt="">
+            <span class="mobile-hidden">home</span>
+          </li>
+          <li class="debug-box">
+            <img src="img/search.svg" alt="">
+            <span class="mobile-hidden">cerca</span>
+          </li>
+          <li class="debug-box">
+            <img src="img/libreria.svg" alt="">
+            <span class="mobile-hidden">la tua libreria</span>
+          </li>
         </ul>
         <h4>Playlist</h4>
-        <div id="new-playlist"> crea playlist</div>
+        <div id="new-playlist"><i class="fa-solid fa-plus"></i>crea playlist</div>
         <div id="playlist">
           <ul>
             <li>nuova playlist</li>
@@ -39,9 +53,15 @@
       </div>
 
       <div class="side-footer d-flex column">
-        <div>installa app</div>
+        <div class="side-foot-content">
+         <img src="img/download.svg" alt="">
+         <span class="mobile-hidden">installa app</span>
+        </div>
         <div class="divider"></div>
-        <div>john doe</div>
+        <div class="side-foot-content">
+          <img src="img/profile.svg" alt="">
+          <span class="mobile-hidden">John Doe</span>
+        </div>
       </div>
 
     </aside>
@@ -157,8 +177,18 @@
 
     <!-- MEDIA CONTAINER  -->
   <section class="media-control-bar d-flex between">
-    <div class="song d-flex align-center h-100 debug-box">
-      aaaaaaaaaaaaa
+    <div class="song d-flex  align-center justify-center   h-100 debug-box">
+      <div class="actual-song d-flex align-center h-100">
+        <img src="img/sinister.jpeg" alt="">
+      </div>
+      <div class="actual-title">
+        <h5>asdasdasda</h5>
+        <h6>asdasdas</h6>
+      </div>
+      <div class="like-folder d-flex">
+        <i class="fa-regular fa-heart"></i>
+        <i class="fa-regular fa-folder"></i>
+      </div>
     </div>
 
     <div class="player d-flex align-center h-100 debug-box">

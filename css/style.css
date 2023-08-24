@@ -2,6 +2,7 @@
   --main-font:'Montserrat', sans-serif;
   --album-background:rgb(20, 25, 34);
   --media-control:rgb(40, 40, 40);
+  --gray-default:rgb(110, 110, 110);
 }
 
 
@@ -53,6 +54,10 @@ ul li {
   align-items: center;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .h-100 {
   height: 100%;
 } 
@@ -96,16 +101,46 @@ ul li {
 
 .side-bar .side-top {
   height: calc(100% - 80px);
+  color: var(--gray-default);
 }
+
+
+#desk-logo img {
+  height: 85px;
+  width: 70%;
+
+}
+
+#mobile-logo {
+  display: none;
+}
+
+.side-top img {
+  width: 20px;
+}
+
+#playlist {
+  height: 45%;
+  overflow-y: auto;
+  background-color: aqua;
+}
+
+#playlist ul li {
+  padding-bottom: 20px;
+}
+
+/* SIDE FOOTER */
 
 .side-bar .side-footer {
   height:80px;
   justify-content: end;
-  padding: 15px;
 }
 
+.side-footer .side-foot-content img {
+  width: 20px;
+}
 
-
+/* FIXED BAR CTA */
 .fixed-bar {
   width: calc(100% - 225px);
   height: 90px;
@@ -113,17 +148,6 @@ ul li {
   right: 0;
   color:white;
   background-color: rgba(0, 0, 0, 0.472);
-}
-
-#playlist {
-  height: calc(100% - 174px);
-  overflow-y: auto;
-  padding: 10px;
-  background-color: aqua;
-}
-
-#playlist ul li {
-  padding-bottom: 20px;
 }
 
 /* ALBUM CONTAINER  */
@@ -183,6 +207,10 @@ ul li {
   height: 90px;
 }
 
+.actual-song  img {
+  height: 50%;
+}
+
 .player {
   width: 40%;
 }
@@ -207,9 +235,21 @@ ul li {
   .side-bar {
     width: 50px;
   }
-.divider {
-  display: none;
-}
+  .divider {
+    display: none;
+  }
+
+  #desk-logo {
+    display: none;
+  }
+
+  #mobile-logo {
+    display: block;
+  }
+
+  .mobile-hidden {
+    display: none;
+  }
 
   .fixed-bar {
     width: calc(100% - 50px);
