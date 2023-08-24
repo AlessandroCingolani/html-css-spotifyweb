@@ -161,9 +161,8 @@ ul li {
 }
 
 #playlist {
-  height: 76%;
+  height: 72%;
   overflow-y: auto;
-  background-color: aqua;
 }
 
 
@@ -177,7 +176,7 @@ ul li {
 }
 
 #playlist ul li:first-child {
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 #playlist ul li {
