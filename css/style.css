@@ -125,6 +125,7 @@ ul li {
   height: 100%;
   min-height: 450px;
   flex-shrink: 0;
+  text-transform: capitalize;
 }
 
 .side-bar .side-top {
@@ -153,15 +154,34 @@ ul li {
 .playlist-section {
   height: calc(100% - 170px);
 }
+.playlist-section h4 {
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 0 10px 0;
+}
 
 #playlist {
-  height: 80%;
+  height: 76%;
   overflow-y: auto;
   background-color: aqua;
 }
 
+
+#new-playlist i {
+  color: black;
+  background-color: gray;
+  padding: 8px 10px;
+  margin-right: 10px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+#playlist ul li:first-child {
+  padding-top: 10px;
+}
+
 #playlist ul li {
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 /* SIDE FOOTER */
