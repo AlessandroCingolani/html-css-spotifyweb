@@ -12,10 +12,10 @@
 </head>
 <body>
   <!-- TOP CONTAINER -->
-  <section class="main-container d-flex debug-box">
+  <section class="main-container d-flex">
     <!-- SIDE BAR -->
-    <aside class="side-bar debug-box">
-      <div class="side-top debug-box">
+    <aside class="side-bar">
+      <div class="side-top">
         <div id="desk-logo">
           <img src="img/logo.svg" alt="">
         </div>
@@ -23,15 +23,15 @@
           <img src="img/logo-small.svg" alt="">
         </div>  
         <ul>
-          <li class="debug-box">
+          <li class="inactive">
             <img src="img/home.svg" alt="">
             <span class="mobile-hidden">home</span>
           </li>
-          <li class="debug-box">
+          <li class="inactive">
             <img src="img/search.svg" alt="">
             <span class="mobile-hidden">cerca</span>
           </li>
-          <li class="debug-box">
+          <li class="inactive">
             <img src="img/libreria.svg" alt="">
             <span class="mobile-hidden">la tua libreria</span>
           </li>
@@ -57,7 +57,7 @@
     
       </div>
 
-      <div class="side-footer d-flex column">
+      <div class="side-footer debug-box d-flex column">
         <div class="side-foot-content">
          <img src="img/download.svg" alt="">
          <span class="mobile-hidden">installa app</span>
@@ -104,87 +104,128 @@
           </div>
             <h3>album name</h3>
             <h5>artist name</h5>
-          </div>
+        </div>
 
         <div class="col">
           <div class="card">
             <img src="img/stranger.jpeg" alt="">
+            <div class="hide">
+              <img class="effects" src="img/stranger.jpeg" alt="">
+              <i class="fa-regular fa-circle-play"></i>
+            </div>
           </div>
             <h3>album name</h3>
             <h5>artist name</h5>
-          </div>
+        </div>
 
         <div class="col">
           <div class="card">
             <img src="img/aquietplace.jpeg" alt="">
+            <div class="hide">
+              <img class="effects" src="img/aquietplace.jpeg" alt="">
+              <i class="fa-regular fa-circle-play"></i>
+            </div>
           </div>
             <h3>album name</h3>
             <h5>artist name</h5>
-          </div>
+        </div>
 
         <div class="col">
           <div class="card">
             <img src="img/split.jpeg" alt="">
+            <div class="hide">
+              <img class="effects" src="img/split.jpeg" alt="">
+              <i class="fa-regular fa-circle-play"></i>
+            </div>
           </div>
             <h3>album name</h3>
             <h5>artist name</h5>
-          </div>
+        </div>
 
         <div class="col">
           <div class="card">
             <img src="img/cure.jpeg" alt="">
+            <div class="hide">
+              <img class="effects" src="img/cure.jpeg" alt="">
+              <i class="fa-regular fa-circle-play"></i>
+            </div>
           </div>
             <h3>album name</h3>
             <h5>artist name</h5>
-          </div>
+        </div>
 
         <div class="col">
           <div class="card">
             <img src="img/sinister.jpeg" alt="">
+            <div class="hide">
+              <img class="effects" src="img/sinister.jpeg" alt="">
+              <i class="fa-regular fa-circle-play"></i>
+            </div>
           </div>
             <h3>album name</h3>
             <h5>artist name</h5>
-          </div> 
+        </div> 
 
       </div>
       <!-- Suggestions -->
       <h3 class="album-section-title">Creato per john doe</h3>
       <h5>più ascolti più saranno accurati i suggerimenti</h5>
       <div class="row d-flex wrap"> 
+
         <div class="col">
           <div class="card">
             <img src="img/radar.jpeg" alt="">
+            <div class="hide">
+              <img class="effects" src="img/radar.jpeg" alt="">
+              <i class="fa-regular fa-circle-play"></i>
+            </div>
           </div>
             <h3>album name</h3>
             <h5>artist name</h5>
-          </div>
+        </div>
+          
         <div class="col">
           <div class="card">
             <img src="img/mixdaily.jpeg" alt="">
+            <div class="hide">
+              <img class="effects" src="img/mixdaily.jpeg" alt="">
+              <i class="fa-regular fa-circle-play"></i>
+            </div>
           </div>
             <h3>album name</h3>
             <h5>artist name</h5>
-          </div>  
+        </div>  
       </div>
           
       <!-- Popular artists -->
       <h3 class="album-section-title">artisti più popolari</h3>
       <h5>più ascolti più saranno accurati i suggerimenti</h5>
       <div class="row d-flex wrap"> 
+
         <div class="col">
           <div class="card popular">
             <img src="img/youg.jpeg" alt="">
+            <div class="hide">
+              <img class="effects" src="img/youg.jpeg" alt="">
+              <i class="fa-regular fa-circle-play"></i>
+            </div>
           </div>
             <h3>album name</h3>
             <h5>artist name</h5>
-          </div>
+        </div>
+
         <div class="col">
           <div class="card popular">
             <img src="img/einaudi.jpeg" alt="">
+            <div class="hide">
+              <img class="effects" src="img/einaudi.jpeg" alt="">
+              <i class="fa-regular fa-circle-play"></i>
+            </div>
           </div>
             <h3>album name</h3>
             <h5>artist name</h5>
-          </div>  
+        </div>  
+
       </div>
           
     </div>
@@ -195,7 +236,7 @@
     <!-- MEDIA CONTAINER  -->
   <section class="media-control-bar d-flex between">
     <!-- LEFT BAR -->
-    <div class="song d-flex  align-center justify-center   h-100 debug-box">
+    <div class="song d-flex  align-center justify-center   h-100 ">
       <div class="actual-song d-flex align-center h-100">
         <img src="img/sinister.jpeg" alt="">
       </div>
@@ -211,7 +252,7 @@
 
 
     <!-- CENTER BAR -->
-    <div class="player d-flex column justify-center align-center h-100 debug-box">
+    <div class="player d-flex column justify-center align-center h-100">
       <div class="player-comand d-flex">
         <i class="fa-solid fa-shuffle"></i>
         <i class="fa-solid fa-backward-step"></i>
@@ -227,7 +268,7 @@
     </div>
 
     <!-- RIGHT BAR -->
-    <div class="player-volume d-flex align-center h-100 debug-box">
+    <div class="player-volume d-flex align-center h-100 ">
       <i class="fa-solid fa-list"></i>
       <i class="fa-solid fa-desktop"></i>
       <i class="fa-solid fa-volume-high"></i>

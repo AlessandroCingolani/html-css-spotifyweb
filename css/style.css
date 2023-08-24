@@ -63,7 +63,8 @@ ul li {
 } 
 
 .btn {
-  padding:6px 20px ;
+  font-size: .8rem;
+  padding:8px 20px ;
   border:1px solid white;
   border-radius: 15px;
   position: absolute;
@@ -98,6 +99,15 @@ ul li {
 .card:hover .hide {
   display: block;
   cursor: pointer;
+}
+
+.inactive img {
+  filter: contrast(0);
+}
+
+.inactive:hover {
+  cursor: pointer;
+  filter: brightness(3);
 }
 
 /* TOP CONTAINER  */
@@ -135,6 +145,9 @@ ul li {
 
 .side-top img {
   width: 20px;
+}
+.side-top ul li {
+  padding-bottom: 10px;
 }
 
 .playlist-section {
