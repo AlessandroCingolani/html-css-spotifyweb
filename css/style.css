@@ -87,14 +87,17 @@ ul li {
 
 .hide {
   display: none;
+}
+
+.effects {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50% -50%);
+  top: 0;
+  filter: brightness(0.5);
 }
 
 .card:hover .hide {
   display: block;
+  cursor: pointer;
 }
 
 /* TOP CONTAINER  */
@@ -161,10 +164,11 @@ ul li {
 
 /* FIXED BAR CTA */
 .fixed-bar {
-  width: calc(100% - 225px);
-  height: 90px;
   position: fixed;
   right: 0;
+  text-transform: uppercase;
+  width: calc(100% - 225px);
+  height: 90px;
   color:white;
   background-color: rgba(0, 0, 0, 0.472);
   z-index: 999;
@@ -227,6 +231,10 @@ ul li {
   padding-top: 10px;
 }
 .card .hide i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
   font-size: 3rem;
 }
 
