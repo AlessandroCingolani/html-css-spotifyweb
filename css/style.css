@@ -85,6 +85,18 @@ ul li {
   border-radius: 10px;
 }
 
+.hide {
+  display: none;
+  position: absolute;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50% -50%);
+}
+
+.card:hover .hide {
+  display: block;
+}
+
 /* TOP CONTAINER  */
 
 .main-container {
@@ -155,6 +167,7 @@ ul li {
   right: 0;
   color:white;
   background-color: rgba(0, 0, 0, 0.472);
+  z-index: 999;
 }
 
 /* ALBUM CONTAINER  */
@@ -190,12 +203,14 @@ ul li {
   border-bottom: 2px solid rgb(173, 255, 47);
 }
 
-
-
 .col {
   width: calc(100% / 6);
   padding: 5px;
   text-align: center;
+}
+
+.col .card {
+  position: relative;
 }
 
 .col .card img {
@@ -207,6 +222,9 @@ ul li {
   border-radius: 50%;
 }
 
+.card .hide i {
+  font-size: 3rem;
+}
 
 /* MEDIA CONTROL BAR */
 .media-control-bar {
