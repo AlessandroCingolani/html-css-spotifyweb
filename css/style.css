@@ -229,7 +229,8 @@ ul li:hover {
   padding: 10px 20px 4px 20px;
 }
 
-.album-menu li:active:after {
+.album-menu li:active:after,
+.album-menu li:first-child:after {
   content: "";
   position: absolute;
   left: 40%;
