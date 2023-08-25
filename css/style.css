@@ -20,6 +20,9 @@ body {
 a {
   color: var(--gray-default);
   text-decoration:none;
+  display: inline-block;
+  display: flex;
+  align-items: center;
 }
 
 a:hover,#new-playlist span:hover,
@@ -90,7 +93,7 @@ ul li {
 
 .divider {
   margin: 5px 0 5px 0;
-  border: 1px solid white;
+  border: 1px solid var(--gray-default);
 }
 .bar {
   border: 2px solid gray;
@@ -112,9 +115,9 @@ ul li {
   cursor: pointer;
 }
 
-ul li img {
+ul li img,
+.side-foot-content  {
   filter: contrast(0);
-  vertical-align: center;
 }
 
 
@@ -317,13 +320,30 @@ ul li img {
   background-color: var(--media-control);
   height: 90px;
 }
+.song {
+  margin-left: 10px;
+}
+
+.song .actual-title {
+  margin: 0 30px 0 10px;
+}
 
 .actual-song  img {
   height: 50%;
 }
 
+.like-folder {
+  gap: 20px;
+  color: var(--gray-default);
+}
+
 .player {
-  width: 40%;
+  width: 60%;
+  flex-shrink: 0;
+}
+
+.player-comand *:not(:nth-child(3)) {
+  font-size: 1rem;
 }
 
 .music-time{
