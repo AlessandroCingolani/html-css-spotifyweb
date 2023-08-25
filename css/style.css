@@ -33,7 +33,10 @@ ul li {
   list-style: none;
 }
 
-i {
+i, 
+.col h5, 
+.col h3,
+.side-top img  {
   cursor: pointer;
 }
 
@@ -96,7 +99,7 @@ i {
 .divider {
   margin: 5px 0 10px 0;
   border: 1px solid var(--gray-default);
-  width: 90%;
+  width: 85%;
   align-self: center;
 }
 
@@ -136,8 +139,7 @@ i {
   cursor: pointer;
 }
 
-ul li img,
-.side-foot-content  {
+ul li img  {
   filter: contrast(0);
 }
 
@@ -184,6 +186,7 @@ ul li img,
 
 .side-top img {
   width: 20px;
+  vertical-align: middle;
 }
 
 .side-top ul li {
@@ -235,18 +238,18 @@ ul li img,
   justify-content: end;
 }
 
+
 .side-footer .download img {
   width: 15px;
   margin-right: 5px;
+  filter: brightness(0.5);
 }
 
 .side-footer #log-profile img {
   width: 20px;
   height: 20px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  color: white;
-  background-color: rgb(100, 28, 28);
+  margin: 0 5px 5px 15px;
+  background-color: var(--gray-default);
   border-radius: 50%;
   overflow: hidden;
 }
