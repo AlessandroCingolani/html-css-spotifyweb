@@ -343,7 +343,7 @@ ul li img,
 }
 
 .player-comand *:not(:nth-child(3)) {
-  font-size: 1rem;
+  font-size: 1.3rem;
 }
 
 .music-time{
