@@ -235,13 +235,12 @@ ul li img  {
 
 .side-bar .side-footer {
   height:80px;
-  margin-top: 20px;
+  padding-top: 20px;
 }
 
 
 .side-footer .download img {
   width: 15px;
-  margin-right: 5px;
   filter: brightness(0.5);
   vertical-align: middle;
 }
@@ -249,7 +248,6 @@ ul li img  {
 .side-footer #log-profile img {
   width: 20px;
   height: 20px;
-  margin: 0 5px 5px 15px;
   background-color: var(--gray-default);
   border-radius: 50%;
   overflow: hidden;
@@ -455,11 +453,13 @@ ul li img  {
     display: flex;
     flex-direction: column;
     align-items: center;
+    gap:20px
   }
 
-
+  .side-bar a {
+     padding: 0;
+  }
   
-  .active,
   .divider {
     display: none;
   }
@@ -470,6 +470,7 @@ ul li img  {
 
   #mobile-logo {
     display: block;
+    padding-top:5px ;
   }
 
   .mobile-hidden {
@@ -480,6 +481,15 @@ ul li img  {
     width: calc(100% - 50px);
   }
   
+  .side-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: end;
+    gap: 10px;
+    padding-bottom: 10px;
+  }
+
   .like-folder {
     flex-wrap: wrap;
     gap:8px
