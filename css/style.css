@@ -22,9 +22,10 @@ a {
   text-decoration:none;
 }
 
-a:hover,
+a:hover,#new-playlist span:hover,
 .active {
   filter: brightness(3);
+  cursor: pointer;
 }
 
 ul li {
