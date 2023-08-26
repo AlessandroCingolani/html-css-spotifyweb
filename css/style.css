@@ -121,7 +121,18 @@ i,
 
 .bar:hover .advancement {
   border: 3px solid rgb(173, 255, 47);
+}
 
+.bar:hover .advancement::after {
+  content: "";
+  position: absolute;
+  right: -8px;
+  top: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+  transform: translate(-50%,-50%);
 }
 
 .hide {
@@ -464,6 +475,10 @@ ul li img  {
     flex-direction: column;
     align-items: center;
     gap:20px
+  }
+
+  .active a {
+    border: none;
   }
 
   .side-bar a {
