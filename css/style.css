@@ -191,9 +191,15 @@ ul li img  {
 
 .side-top ul li {
   padding-bottom: 10px;
+  position: relative;
 }
 
-.active {
+.side-top .active:first-child:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
   border-left: 3px solid rgb(173, 255, 47);
 }
 
