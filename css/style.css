@@ -260,6 +260,10 @@ ul li img  {
   vertical-align: middle;
 }
 
+#log-profile {
+  padding-left: 15px;
+}
+
 .side-footer .download {
   font-size: .8rem;
 }
@@ -494,6 +498,10 @@ ul li img  {
     justify-content: end;
     gap: 10px;
     padding-bottom: 10px;
+  }
+
+  #log-profile {
+    padding-left: 0;
   }
 
   .like-folder {
