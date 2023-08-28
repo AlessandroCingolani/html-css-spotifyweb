@@ -93,19 +93,20 @@ i,
 }
 
 .bar {
-  border: 3px solid gray;
   border-radius: 10px;
   cursor: pointer;
   display: inline-block;
+  height: 4px;
+  background-color: grey;
 }
 
 .advancement {
-  border: 3px solid white;
   border-radius: 10px;
+  height: 4px;
   position: absolute;
-  left: -3px;
+  left: 0;
+  background-color: white;
   width: 30%;
-  transform: translate(0,-50%);
 }
 
 .bar:hover .advancement {
